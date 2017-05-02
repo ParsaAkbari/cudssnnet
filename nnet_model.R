@@ -1,3 +1,5 @@
+install.packages("MASS")
+install.packages("neuralnet")
 set.seed(500)
 library(MASS)
 data <- Boston
