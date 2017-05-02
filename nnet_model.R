@@ -2,11 +2,11 @@
 ######### MODIFY THIS #############
 # example: First and second layer both have 1 neuron, feel free to increase or add new
 # layers
-LAYERS <- c(1,1)
+LAYERS <- c(3,3)
 
 ######### DONT MODIFY THIS ########
-#install.packages("MASS")
-#install.packages("neuralnet")
+install.packages("MASS")
+install.packages("neuralnet")
 set.seed(500)
 library(MASS)
 data <- Boston
